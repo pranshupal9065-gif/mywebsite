@@ -20,7 +20,22 @@
   </audio>
   <h1 style="color:red;">Hii my sunshine🌞 </h1>
   <p> Yeh website tere liye tere ko impress karne ke liye meri laddo meri sunshine 🌞</p>
-  <p> I love you so much baby ❤️</p>
+  <!-- BUTTON -->
+  <button onclick="showMessage()" 
+    style="padding:10px 20px; font-size:18px; background:red; color:white; border:none; border-radius:10px;">
+    Click karo ❤️
+  </button>
+
+  <!-- HIDDEN MESSAGE -->
+  <p id="secretMsg" style="display:none; font-size:22px; color:red; margin-top:20px;">
+    I love you meri sunshine ❤️🥺
+  </p>
+
+  <script>
+    function showMessage() {
+      document.getElementById("secretMsg").style.display = "block";
+    }
+  </script>
 
 </body>
 </html>
